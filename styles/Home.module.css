@@ -63,6 +63,20 @@
     opacity: 75%;
 }
 
+.regSignup{
+    background-color: var(--color4);
+    box-shadow: 1px 1px 5px;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 75%;
+    top:230px;
+    color: rgb(0, 0, 0);
+}
+
+.regSignup:hover{
+    opacity: 75%;
+}
 /*********FOOTER**********/
 
 .footerDiv{

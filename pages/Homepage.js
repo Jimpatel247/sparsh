@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Signup from './Signup'
 
 export default function Homepage(){
 	return(
@@ -24,6 +25,8 @@ export default function Homepage(){
     <div className={styles.firstDiv}></div>
     <div className={styles.firstText}>SPARSH 2022</div>
     <Link href = "/login"><a className={styles.regLogin}>Login/Register</a></Link>
+    <Link href = "/register"><a className={styles.regSignup}>Register</a></Link>
+    <Signup/>
   </div>
   
   {/* <!----------------FOOTER-------------------> */}
